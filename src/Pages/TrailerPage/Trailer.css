@@ -1,0 +1,45 @@
+.Player_trailer{
+    color: white;
+
+}
+
+
+.Player_trailer .player_icon img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 60px;
+    cursor:pointer;
+
+}
+
+.Player_trailer .Ifram iframe{
+    margin: auto;
+    width: 95%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+    
+}
+
+.Player_trailer .Date_And_Type .Date span{
+    color: white;
+}
+
+.Player_trailer .Date_And_Type{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 3.5rem;
+    filter: drop-shadow(0 0 5px white);
+
+}
+
+@media (max-width: 991px) {
+.Ifram{
+    margin-left: 15px;
+}
+}

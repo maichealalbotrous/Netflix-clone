@@ -1,0 +1,117 @@
+
+.navbar{
+  z-index: 1000;
+}
+.navbar .collapse .Links ul li a{
+color: white;
+box-shadow:0 0  10px white;
+border-radius: 20px;
+margin: 10px;
+text-align: center;
+}
+
+.navbar .collapse .Links ul li a:hover,
+.navbar .collapse .Links ul li a:focus{
+
+    opacity: 1;
+background-color: white;
+border: 2px solid black;
+color: black;
+box-shadow: 0 0 20px white;
+transform: scale(1.1);
+transition: 0.2s;
+
+}
+
+.navbar .collapse .Links ul li a:not(:focus),
+.navbar .collapse .Links ul li a:not(:hover)
+{
+
+    opacity: 0.9;
+    border: 2px solid white;
+
+}
+
+
+  .Links {
+    margin-right: auto;
+  }
+  
+  .Icons {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+
+ 
+  }
+ .Icons .input_search input{
+border: none;
+border-radius: 20px;
+padding: 1px;
+outline: none;
+ }
+ .Icons .input_search input::placeholder
+
+ {
+    color:#222;
+    font-weight:500;
+
+ }
+ .Icons .Search img{
+  cursor: pointer;
+ }
+
+ .Icons .Children:hover,
+ .Icons .Children:focus{
+  
+  transform: scale(1.1);
+  transition: 0.2s;
+  border-bottom: 2px solid white;
+  filter:drop-shadow( 0 0 10px white);
+  cursor: pointer;
+  color: black;
+ }
+
+ .Icons .Children{
+border-bottom: 2px solid white;
+ }
+
+.dropdown .dropdown-menu{
+width: 10px;
+}
+
+
+ .fixed{
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;  
+  background-color: #222;
+  color: white;
+  transition: 0.2s;
+
+ }
+
+
+  @media (max-width:991px ) {
+    .Icons{
+        width: 100%;
+        margin-top: 2rem;
+      
+    }
+
+    
+    .navbar .collapse .Links{
+      width: 70%;
+      margin-top: 2rem;
+      margin-right: 50%;
+      margin-left: 10%;
+  }
+  }
+
+
+

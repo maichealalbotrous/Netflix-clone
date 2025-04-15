@@ -1,0 +1,24 @@
+
+*{
+    cursor: pointer;
+}
+.Childreen{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 60px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+ .Logos{
+    margin-top: 50px;
+
+}
+
+.Logos img  {
+    margin-left: 30px;
+}

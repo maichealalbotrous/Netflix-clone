@@ -1,0 +1,136 @@
+.Login_Page{
+    background-image: url(/public/background_banner.jpg);
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.Login_Page .Login_Form{
+background-color: rgba(21, 21, 21, 0.737);
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%,-50%);
+padding: 20px;
+height: 50%;
+border-radius: 20px;
+box-shadow: 0 0 20px white;
+
+}
+
+.NetFlix_Logo{
+    margin: 30px;
+    max-width: 200px;
+}
+.Login_Page .Login_Form{
+    width: 400px;
+    text-align: center;
+    height:auto;
+
+}
+.Login_Page .Login_Form h1{
+filter: drop-shadow(3px 0 white);
+}
+
+.Login_Page .Login_Form .inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.Login_Page .Login_Form .inputs{
+    margin-top: 20px;
+}
+.Login_Page .Login_Form .inputs input{
+    margin: 5px;
+    padding: 2px;
+    border-radius: 20px ;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px white;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+
+
+}
+
+.Login_Page .Login_Form .SignUp_btn button{
+background-color: rgba(255, 0, 0, 0.629);
+color: white;
+border-radius: 20px;
+padding: 5px;
+width: 8rem;
+border: none;
+box-shadow: 0 0 10px white;
+margin-top: 40px;
+
+}
+
+.Login_Page .Login_Form .SignUp_btn button:hover{
+    background-color: black;
+    color: red;
+    transition: 0.2s;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px white;
+    filter: drop-shadow(0 0 20px red);
+}
+
+.Login_Page .Login_Form .help{
+    color: white;
+    filter: drop-shadow(0 0 10px red);
+    margin-top: 20px;
+    border-bottom: 3px solid white ;
+    border-width: 3px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+
+.Login_Page .Login_Form .help .CheckBox{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.Login_Page .Login_Form .help .CheckBox .CheckBox_input{
+    cursor: pointer;
+}
+
+.Sign{
+display: flex;
+justify-content: space-around;
+font-size: 13px;
+text-align: center;
+cursor: pointer;
+
+}
+.Sign .sign_up_now label,
+.Sign .sign_in_now label{
+    
+font-weight: bold;
+color: #b0afaf;
+letter-spacing: 0.5px;
+
+}
+
+.Sign .sign_in_now p:hover,
+.Sign .sign_up_now p:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 20px white);
+    transition: 0.2s;
+    
+}
+
+@media (max-width:991px ) {
+.Login_Page .Login_Form{
+    width: 90%;
+}
+}

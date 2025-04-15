@@ -1,0 +1,61 @@
+.cont{
+    background-image: url(/public/hero_banner.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.maincontent{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   margin-top: 10rem;
+   text-align: left;
+
+}
+
+.maincontent .content{
+    max-width: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: x-large;
+    text-transform:capitalize;
+    filter: drop-shadow( 0 10px black);
+}
+
+.maincontent  .Buttons button{
+    padding: 7px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+
+}
+.maincontent  .Buttons .Play:hover,
+.maincontent  .Buttons .MorInfo:hover{
+    
+    box-shadow: 0 0 20px white;
+    background-color: black;
+    color: white;
+    transform:rotate(360deg);
+    transition: 0.2s;
+}
+.maincontent  .Buttons .MorInfo{
+     background-color: rgba(227, 227, 227, 0.313);
+
+}
+
+.maincontent  .Buttons button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    box-shadow: 0 0 20px black;
+}
+
+@media (max-width: 991px) {
+.maincontent .Title .TitleImg{
+    max-width: 200px;
+}
+
+}
